@@ -4,12 +4,13 @@
 This program will read a file containing several 32-bit integer numbers that represent logical addresses. However, it will need only be concerned with 16-bit addresses.
 
 These 16 bits are divided into (1) an 8-bit page number and (2) 8-bit page offset. Hence, the addresses are structured as shown:
+```
 ***********************************************************
 31********************16******************7***************0
 |                      |    page number   |    offset     |
 31********************16******************7***************0
 ***********************************************************
-
+```
 Other specifics include the following:
 • 28 entries in the page table
 • Page size of 28 bytes
