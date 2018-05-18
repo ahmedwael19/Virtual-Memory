@@ -111,8 +111,11 @@ int main(int argc, char *argv[])
     fclose(address_file);
     fclose(backing_store);
 
-    printf("Number of page faults = %f\n",page_fault/(float)no_references);
-    printf("Number of TLB Hits = %f\n",TLB_hits/(float)no_references);
+    printf("Number of references = %d\n", no_references);
+    printf("Number of page faults = %d\n",page_fault);
+    printf("Number of TLB Hits = %d\n",TLB_hits);
+    printf("Page-fault rate = %f\n",page_fault/(float)no_references);
+    printf("TLB hit rate = %f\n",TLB_hits/(float)no_references);
 
     return 0;
 }
