@@ -11,7 +11,7 @@ These 16 bits are divided into (1) an 8-bit page number and (2) 8-bit page offse
 31********************16******************7***************0
 ***********************************************************
 ```
-Other specifics include the following:
+Other specifics include the following: <br />
 • 28 entries in the page table <br />
 • Page size of 28 bytes <br />
 • 16 entries in the TLB <br />
