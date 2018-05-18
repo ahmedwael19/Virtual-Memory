@@ -12,12 +12,12 @@ These 16 bits are divided into (1) an 8-bit page number and (2) 8-bit page offse
 ***********************************************************
 ```
 Other specifics include the following:
-• 28 entries in the page table__
-• Page size of 28 bytes__
-• 16 entries in the TLB__
-• Frame size of 28 bytes__
-• 256 frames__
-• Physical memory of 65,536 bytes (256 frames × 256-byte frame size)__
+• 28 entries in the page table <br />
+• Page size of 28 bytes <br />
+• 16 entries in the TLB <br />
+• Frame size of 28 bytes <br />
+• 256 frames <br />
+• Physical memory of 65,536 bytes (256 frames × 256-byte frame size) <br />
 
 
 This code is fully developed by Ahmed Wael and Mohamed Elsayed for the operating system class in spring 2018.
