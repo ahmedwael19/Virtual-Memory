@@ -12,30 +12,15 @@ These 16 bits are divided into (1) an 8-bit page number and (2) 8-bit page offse
 ***********************************************************
 ```
 Other specifics include the following:
-• 28 entries in the page table
-• Page size of 28 bytes
-• 16 entries in the TLB
-• Frame size of 28 bytes
-• 256 frames
-• Physical memory of 65,536 bytes (256 frames × 256-byte frame size)
-Additionally, your program need only be concerned with reading logical
-addresses and translating them to their corresponding physical addresses. You
-do not need to support writing to the logical address space
+• 28 entries in the page table__
+• Page size of 28 bytes__
+• 16 entries in the TLB__
+• Frame size of 28 bytes__
+• 256 frames__
+• Physical memory of 65,536 bytes (256 frames × 256-byte frame size)__
 
 
 This code is fully developed by Ahmed Wael and Mohamed Elsayed for the operating system class in spring 2018.
-
-
-## Makefile:
-The code can be compiled to produce output and cleaned to remove the output using make
-
-```
-$ make
-gcc -pthread main.c -o main
-$ ./main 2 3 4
-$ make clean
-rm -f main
-```
 
 ## Error handling:
 Code is capable of handling the input error cases.
