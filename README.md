@@ -3313,8 +3313,11 @@ Found in TLB, page number = 47 correspond to frame = 10
 Page number = 47 Frame Number = 10 offset: 75 
 Virtual address: 12107 Physical address: 2635 Value: 0
 
+Number of references = 1000
 Number of page faults = 244
 Number of TLB Hits = 60
+Page-fault rate = 0.244000
+TLB hit rate = 0.060000
 ```
 
 ## Built With
